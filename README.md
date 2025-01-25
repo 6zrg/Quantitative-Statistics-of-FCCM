@@ -7,6 +7,7 @@
 
 - Train
 
+bash
 python train.py
 
 - Test
