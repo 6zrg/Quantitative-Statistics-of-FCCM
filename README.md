@@ -7,15 +7,14 @@
 
 - Train
 
-```bash
 python train.py
 
 - Test
 
-```bash
 python infer.py
 
 ## 3. Quantitative-Statistics-of-FCCM
 
 ```bash
+
 python focus_statistics_3D.py
