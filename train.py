@@ -54,7 +54,7 @@ parser.add_argument('--vit_patches_size', type=int,
 parser.add_argument('--device', default='cuda', type=str, )
 parser.add_argument('--throughput', action='store_true', help='Test throughput only')
 parser.add_argument('--checkpoint', type=str, default='checkpoint/', )
-parser.add_argument('--save_fold', type=str, default='FCCM3', )
+parser.add_argument('--save_fold', type=str, default='FCCM', )
 parser.add_argument('--model_name', type=str, default='UNet_effi-b3', )
 parser.add_argument('--devicenum', default='0', type=str, )
 
