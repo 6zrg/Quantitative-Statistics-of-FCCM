@@ -64,7 +64,7 @@ parser.add_argument('--batch_size', default=1, type=int, help='batch size')
 parser.add_argument('--devicenum', default='0', type=str, )
 
 parser.add_argument('--model_name', default='Unet_effi_b3', type=str, )
-parser.add_argument('--weight', default='/mnt/zrg/Image_segmentation/2D_segmentation/FCCM_TBME/checkpoint/FCCM/Unet_effi_b3/Unet_effi_b3.pth', type=str, )
+parser.add_argument('--weight', default='./model-weight/Unet_effi_b3.pth', type=str, )
 
 args = parser.parse_args()
 os.environ['CUDA_VISIBLE_DEVICES'] = args.devicenum
