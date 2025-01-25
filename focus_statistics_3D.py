@@ -528,7 +528,7 @@ def Lesion_Visualization_1(path_2d, region_volumes_final, copy_image, save_path,
 def infer(test_img_path, result_path, csv_path):
     labels_test_path = '/mnt/zrg/Image_segmentation/2D_segmentation/ccm_duo_fa_segmentation/result/test_mask'
     batch_size = 1
-    weight = './checkpoint/FCCM/Unet_effi_b3/Unet_effi_b3.pth'
+    weight = './model-weight/Unet_effi_b3.pth'
 
     pre_result_path = result_path
     if not os.path.exists(pre_result_path):
